@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build" # or "public" depending on your app
+
+[build.environment]
+  DB_URL = "mongodb+srv://final_proj:yiCEzimhGU8CnaQK@cluster0.ha2x2.mongodb.net/travel_agency?retryWrites=true&w=majority" # this will use the value set in Netlify's environment variables
